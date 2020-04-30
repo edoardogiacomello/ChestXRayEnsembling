@@ -1,0 +1,9 @@
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Examples of image-to-image translation from the work of Isola et al. \cite {pix2pix}\relax }}{19}{figure.caption.15}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces DCGAN generator used in the work of Radford, Metz and Chintala.\relax }}{25}{figure.caption.23}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Thermal images translated to RGB photos: an example of Image-to-Image translation using Pix2Pix\cite {pix2pix}\relax }}{26}{figure.caption.24}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Two choices for the generator architecture. U-Net has skip connections between mirrored layers\cite {pix2pix}.\relax }}{27}{figure.caption.25}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Path size variations going from 1x1 "PixelGAN" to "286x286" "ImageGAN" passing through the 70x70 PatchGAN that produces sharp results in both the spatial and spectral (colorfulness) dimensions\cite {pix2pix}.\relax }}{27}{figure.caption.26}
+\addvspace {10\p@ }

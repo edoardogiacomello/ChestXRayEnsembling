@@ -1,0 +1,26 @@
+\chapter{Introduction}
+\label{cha:first_chapter}
+\ac{CXR} is one of the most common tool used for the detection of many diseases. It's an easy, fast and non invasive medical test that employs ionizing radiation in order to produce a chest image that can be used to diagnose many conditions involving heart, lungs, airways, blood vessels and the bones of the spine and chest.
+
+
+\vspace{5mm} %5mm vertical space
+Despite the simplicity of the test, reading chest X-ray images may be a challenging task  requiring careful observation and knowledge of anatomical principles, physiology and pathology. Because of this a highly qualified figure, the radiologist, is often needed in place of a doctor. Even though this seems not be a problem for many countries, it could be a big issue for the poorest one, where the lack of medical resources and personnel could be fatal. In Africa's 47 countries, for example, there is a deficit amounting to 2.4 million doctors and nurses \cite{medicalreport}. For these populations a fast and accurate diagnosis is fundamental in order to guarantee timely access to treatments.
+Moreover, the average time it takes a well trained radiologist to read a radiography is about 1-2 minutes. However, considering that an hospital can generate hundreds or even thousands of~\acp{CXR} every day, the overall amount of time is massive.
+
+\vspace{5mm} %5mm vertical space
+It would be very useful, then, to have an automated system able to support the work of medical staff. The aim is not to replace human's effort, but to support it, improving the quality of the diagnosis and speeding up them. Being able to provide a fast and accurate evaluation of the~\ac{CXR} could be extremely useful in many cases in order to provide a prompt therapy to the patient.
+
+
+\vspace{5mm} %5mm vertical space
+The increment in the volume of available data of the last years and the recent improvements in the field of~\ac{ML} and, in particular, of~\ac{DL} made possible to develop a lot of automated systems able to support and enhance the healthcare. Specifically, the realization of an autonomous system able to read a ~\ac{CXR} and provide a reliable diagnosis had become a feasible objective.
+
+
+
+
+\section{Scope}
+\label{sec:scope}
+In this work we tackle the problem of analyzing~\acp{CXR} using not only~\acp{CNN}, one of the most used tool to examine medical images, but also~\ac{ML} approaches,such as~\ac{RF}. We also investigate how these different methods can be combined in order to enhance the performance. The goal of this work, however, is not only to classify whether a given~\ac{CXR} is healthy or not, but also to give an explanation on why that decision has been taken. Indeed a big problem related to the field of~\ac{AI} is that many algorithms work as a black box: they are fed with data and a result is produced, but we're often unsure about what happened in the middle and, in particular, we don't know which are the reasons that drove the model to take that decision. Although the process that generate an outcome could be less interesting for many scenarios, it is instead extremely important in medicine, where it's crucial to know why a patient is sick. In order to overcome this problem and make the prediction more explainable, we generate an heat map overlapping the radiography that highlights the area affected by the disease.
+
+\section{Thesis Structure}
+\label{sec:third_section}
+In Chapter 2 we will overview the related works that have been done in this field as well as the theoretical background needed to understand how we designed our system. Chapter 3 will formally present the problem and the content of the dataset that we have used and we'll show how the data have been preprocessed. We will also discuss about the related works that have been done involving the same dataset. Chapter 4 will describe the solution we developed to solve the problem. In Chapter 5 we will present the obtained results and they will be compared with the current state of the art. Finally, in the last chapter, we will give a general consideration about our work and we'll propose further approaches that can be implemented to improve it.

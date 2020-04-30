@@ -1,0 +1,199 @@
+\documentclass[a4paper,12pt,openright,notitlepage,twoside]{book}
+\raggedbottom % lascia alla fine delle pagine lo spazio invece che adattarle
+
+
+% pacchetti da caricare
+\usepackage[table]{xcolor}
+\usepackage[T1]{fontenc} % definisce i caratteri di output
+\usepackage{afterpage}
+\usepackage[utf8]{inputenc} % definisce i caratteri di input
+\usepackage[italian,english]{babel} % definisce la lingua del documento
+\usepackage[headheight=15pt]{geometry} % definisce i margini del documento
+\geometry{a4paper,top=30mm,bottom=30mm,left=30mm,right=25mm,heightrounded,bindingoffset=3mm}
+\usepackage{fancyhdr} % serve per gestire intestazione e piè di pagina
+\pagestyle{fancy}
+\usepackage{emptypage} % serve per fare le pagine vuote
+\usepackage[pdftex]{hyperref} % serve per ottenere links e indice cliccabili
+\hypersetup{colorlinks=true,allcolors=black}
+\usepackage{microtype} % migliora la scrittura del testo
+\usepackage{appendix} % serve per personalizzare l'appendice
+\usepackage[printonlyused]{acronym} % serve per creare l'elenco degli acronimi
+\usepackage{eurosym} % serve per scrivere il singolo dell'euro
+\usepackage{siunitx} % serve per mettere le unita` di misura nel SI
+\usepackage{mathtools} % serve per fare le formule matematiche (carica anche AMSMATH)
+\usepackage{booktabs} % serve per fare le tabelle più belle
+\usepackage{multirow} % serve per fare le tabelle con righe complesse
+\usepackage{pgfplotstable} % serve per fare tabelle da file con dati tabulati
+\usepackage{graphicx} % serve per fare le figure
+\usepackage{tikz} % serve per fare i grafici
+\usepackage{pgfplots} % serve a fare i grafici anche lui
+\pgfplotsset{compat=1.14}
+\usepackage{subcaption} % serve per aggiungere la didascalia alle figure composte (carica anche CAPTION)
+\captionsetup{font=small,labelsep=colon}
+\usepackage{tocloft} % serve per fare le liste di figure e tabelle più belle
+%\usepackage{cite} % serve per mettere le citazioni bibliografiche
+\usepackage{biblatex} %serve per la bibliografia
+\addbibresource{references.bib}
+%\usepackage{eurosym}
+%\usepackage{mathabx}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage{amsmath}
+
+
+% modifiche dei comandi
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ #1}{}} % modifica l'intestazione con il nome/numero del capitolo
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}} % modifica l'intestazione con il nome/numero dela sezione
+\renewcommand{\cftfigfont}{Figure } % per aggiungere "Figure " nella lista delle figure
+\renewcommand{\cfttabfont}{Table } % per aggiungere "Table " nella lista delle tabelle
+\newcommand{\omissis}{[\textellipsis\unkern]}
+
+
+% dichiarazioni personalizzate
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert} % per fare il valore assoluto
+\DeclarePairedDelimiter{\norma}{\lVert}{\rVert} % per fare la norma
+
+
+
+\begin{document}
+
+%\frontmatter % serve per mettere i numeri romani come numeri di pagina 
+\thispagestyle{empty} % serve per rimuovere tutte le impostazioni delle pagine dalla prima pagina
+
+% FRONTESPIZIO
+\begin{center}
+% Intestazione
+\Large{\textbf{Politecnico di Milano}} \\
+\vspace{-4mm}
+\rule{\textwidth}{0.4pt}
+\normalsize{SCHOOL OF INDUSTRIAL AND INFORMATION ENGINEERING} \\
+\normalsize{Master of Science -- Computer Science and Engineering} \\
+\vspace{20mm}
+% Logo Politecnico
+\begin{figure}[h!]
+\centering
+\includegraphics[height=0.20\textheight]{images/logo_poli_bianco}
+\end{figure}
+\vspace{12mm}
+% Titolo Tesi
+\huge{\textbf{A Machine Learning approach for automatic disease detection in Chest X-Rays}} \\
+\vspace{22mm}
+\end{center}
+
+% Relatore/Correlatore
+\begin{flushleft}
+\normalsize{Supervisor} \\
+\small{\textbf{Prof. Pier Luca Lanzi}} \\
+\vspace{5mm}
+\normalsize{Co-Supervisors} \\
+\small{\textbf{Prof. Daniele Loiacono}} \\
+\small{\textbf{Dr. Edoardo Giacomello}} \\
+\end{flushleft}
+\vspace{10mm}
+
+% Autore
+\begin{flushright}
+\normalsize{Candidate} \\
+\small{\textbf{Luca Nassano -- 893812}} \\
+\end{flushright}
+\vspace{13mm}
+
+% Piè Di Pagina
+\begin{center}
+\rule{\textwidth}{0.4pt}
+\small{\textbf{Academic Year 2018 -- 2019}}
+\end{center}
+
+
+% modifica intestazione e piè di pagina del corpo del documento
+\fancyhead{} % cancella tutti i campi dell'intestazione
+\fancyfoot{} % cancella tutti i campi del piè di pagina
+\fancyhead[LE,RO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+% carico le varie parti della tesi
+\input{chapters/acknowledgements}
+\input{chapters/abstract}
+\input{chapters/estratto}
+%\input{chapters/extended_abstract}
+\cleardoublepage
+
+
+% modifica intestazione indice
+\fancyhead[LE,RO]{\nouppercase{\leftmark}} % cancella il tutto maiuscolo
+
+% Indice 
+\phantomsection
+\tableofcontents
+\addcontentsline{toc}{chapter}{\contentsname}
+\cleardoublepage
+
+
+% Lista delle Figure
+\phantomsection
+\listoffigures
+\addcontentsline{toc}{chapter}{\listfigurename}
+\cleardoublepage
+
+
+% Lista delle Tabelle
+\phantomsection
+\listoftables
+\addcontentsline{toc}{chapter}{\listtablename}
+\cleardoublepage
+
+
+\fancyhead[LE]{\leftmark}
+\fancyhead[RO]{\rightmark}
+\fancyfoot[LE,RO]{\thepage}
+
+%\mainmatter % serve per mettere i numeri arabi come numeri di pagina
+
+\onehalfspacing
+% Capitoli Tesi
+\input{chapters/first_chapter}
+\input{chapters/second_chapter}
+\input{chapters/third_chapter}
+\input{chapters/fourth_chapter}
+\input{Tesi/chapters/fifth_chapter}
+
+% Conclusioni
+\input{chapters/conclusions}
+
+
+% Appendici
+
+%\renewcommand{\chaptermark}[1]{\markboth{\appendixname\ \thechapter.\ #1}{}} % modifica l'intestazione con il nome/lettera dell'appendice
+%\fancyhead[LE,RO]{\leftmark}
+
+%\appendix % trasforma i numeri in lettere per fare l'appendice
+%\input{chapters/first_appendix}
+
+%\newcommand\blankpage{%
+%    \null
+%    \thispagestyle{empty}%
+%    \addtocounter{page}{+0}%
+%    \newpage}
+
+%\afterpage{\blankpage}
+% Acronimi
+\clearpage\null\thispagestyle{empty}
+
+\input{chapters/acronyms}
+
+
+% modifica intestazione della bibliografia
+\fancyhead[LE,RO]{\nouppercase{\leftmark}} % cancella il tutto maiuscolo
+
+
+\appto{\bibsetup}{\raggedright}
+% bibliografia
+\printbibliography[heading=bibintoc]
+
+
+
+\end{document}
