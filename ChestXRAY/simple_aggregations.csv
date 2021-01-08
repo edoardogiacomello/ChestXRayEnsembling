@@ -1,0 +1,241 @@
+,magnitude,label,score,aggregation,bayes
+0,0.0,Atelectasis,0.8174278215223097,pick_best,no_bayes
+1,0.0,Cardiomegaly,0.8407976827094474,pick_best,no_bayes
+2,0.0,Consolidation,0.883639705882353,pick_best,no_bayes
+3,0.0,Edema,0.9386904761904762,pick_best,no_bayes
+4,0.0,Pleural Effusion,0.9329710144927537,pick_best,no_bayes
+5,1.0,Atelectasis,0.8038687664041995,pick_best,no_bayes
+6,1.0,Cardiomegaly,0.7573529411764707,pick_best,no_bayes
+7,1.0,Consolidation,0.8462242647058823,pick_best,no_bayes
+8,1.0,Edema,0.9228869047619047,pick_best,no_bayes
+9,1.0,Pleural Effusion,0.9184624094202898,pick_best,no_bayes
+10,1.5,Atelectasis,0.8053123359580053,pick_best,no_bayes
+11,1.5,Cardiomegaly,0.7575122549019608,pick_best,no_bayes
+12,1.5,Consolidation,0.8461893382352941,pick_best,no_bayes
+13,1.5,Edema,0.9213794642857143,pick_best,no_bayes
+14,1.5,Pleural Effusion,0.9207336956521738,pick_best,no_bayes
+15,2.0,Atelectasis,0.8035590551181102,pick_best,no_bayes
+16,2.0,Cardiomegaly,0.7582698306595366,pick_best,no_bayes
+17,2.0,Consolidation,0.843626838235294,pick_best,no_bayes
+18,2.0,Edema,0.9210848214285714,pick_best,no_bayes
+19,2.0,Pleural Effusion,0.919465579710145,pick_best,no_bayes
+20,2.5,Atelectasis,0.7981889763779527,pick_best,no_bayes
+21,2.5,Cardiomegaly,0.7555782085561497,pick_best,no_bayes
+22,2.5,Consolidation,0.8448051470588236,pick_best,no_bayes
+23,2.5,Edema,0.917983630952381,pick_best,no_bayes
+24,2.5,Pleural Effusion,0.9174184782608696,pick_best,no_bayes
+25,5.0,Atelectasis,0.7853301837270341,pick_best,no_bayes
+26,5.0,Cardiomegaly,0.7437589126559715,pick_best,no_bayes
+27,5.0,Consolidation,0.8365533088235293,pick_best,no_bayes
+28,5.0,Edema,0.9076517857142857,pick_best,no_bayes
+29,5.0,Pleural Effusion,0.9086582880434783,pick_best,no_bayes
+30,0.0,Atelectasis,0.853753280839895,pick_best,bayes
+31,0.0,Cardiomegaly,0.7999108734402852,pick_best,bayes
+32,0.0,Consolidation,0.9003676470588236,pick_best,bayes
+33,0.0,Edema,0.9363095238095238,pick_best,bayes
+39,0.0,Pleural Effusion,0.9329710144927537,pick_best,bayes
+44,1.0,Atelectasis,0.8278110236220472,pick_best,bayes
+45,1.0,Cardiomegaly,0.7299331550802138,pick_best,bayes
+46,1.0,Consolidation,0.869376838235294,pick_best,bayes
+47,1.0,Edema,0.9271235119047618,pick_best,bayes
+53,1.0,Pleural Effusion,0.9184624094202898,pick_best,bayes
+58,1.5,Atelectasis,0.8302372703412073,pick_best,bayes
+59,1.5,Cardiomegaly,0.7297805258467023,pick_best,bayes
+60,1.5,Consolidation,0.8690661764705881,pick_best,bayes
+61,1.5,Edema,0.925764880952381,pick_best,bayes
+67,1.5,Pleural Effusion,0.9207336956521738,pick_best,bayes
+72,2.0,Atelectasis,0.8327999999999999,pick_best,bayes
+73,2.0,Cardiomegaly,0.7334046345811052,pick_best,bayes
+74,2.0,Consolidation,0.8662757352941176,pick_best,bayes
+75,2.0,Edema,0.9255982142857144,pick_best,bayes
+81,2.0,Pleural Effusion,0.919465579710145,pick_best,bayes
+86,2.5,Atelectasis,0.8256729658792652,pick_best,bayes
+87,2.5,Cardiomegaly,0.728158422459893,pick_best,bayes
+88,2.5,Consolidation,0.8667591911764706,pick_best,bayes
+89,2.5,Edema,0.9228616071428571,pick_best,bayes
+95,2.5,Pleural Effusion,0.9174184782608696,pick_best,bayes
+100,5.0,Atelectasis,0.8144377952755906,pick_best,bayes
+101,5.0,Cardiomegaly,0.7147660427807486,pick_best,bayes
+102,5.0,Consolidation,0.8590992647058824,pick_best,bayes
+103,5.0,Edema,0.9160625,pick_best,bayes
+109,5.0,Pleural Effusion,0.9086582880434783,pick_best,bayes
+116,0.0,Cardiomegaly,0.8463680926916222,simple_mean,no_bayes
+119,0.0,Edema,0.938095238095238,simple_mean,no_bayes
+120,0.0,Consolidation,0.8924632352941175,simple_mean,no_bayes
+122,0.0,Atelectasis,0.8133333333333332,simple_mean,no_bayes
+124,0.0,Pleural Effusion,0.9334239130434783,simple_mean,no_bayes
+130,1.0,Cardiomegaly,0.7470788770053477,simple_mean,no_bayes
+133,1.0,Edema,0.9238705357142857,simple_mean,no_bayes
+134,1.0,Consolidation,0.8634650735294117,simple_mean,no_bayes
+136,1.0,Atelectasis,0.806542782152231,simple_mean,no_bayes
+138,1.0,Pleural Effusion,0.9219984148550725,simple_mean,no_bayes
+144,1.5,Cardiomegaly,0.7454211229946525,simple_mean,no_bayes
+147,1.5,Edema,0.9213497023809523,simple_mean,no_bayes
+148,1.5,Consolidation,0.8614889705882353,simple_mean,no_bayes
+150,1.5,Atelectasis,0.8072461942257219,simple_mean,no_bayes
+152,1.5,Pleural Effusion,0.9226494565217391,simple_mean,no_bayes
+158,2.0,Cardiomegaly,0.7459525401069519,simple_mean,no_bayes
+161,2.0,Edema,0.9236458333333333,simple_mean,no_bayes
+162,2.0,Consolidation,0.8613474264705883,simple_mean,no_bayes
+164,2.0,Atelectasis,0.8092566929133859,simple_mean,no_bayes
+166,2.0,Pleural Effusion,0.9226528532608694,simple_mean,no_bayes
+172,2.5,Cardiomegaly,0.7452595811051693,simple_mean,no_bayes
+175,2.5,Edema,0.9205029761904762,simple_mean,no_bayes
+176,2.5,Consolidation,0.8609779411764706,simple_mean,no_bayes
+178,2.5,Atelectasis,0.8078593175853018,simple_mean,no_bayes
+180,2.5,Pleural Effusion,0.9216417572463768,simple_mean,no_bayes
+186,5.0,Cardiomegaly,0.733186274509804,simple_mean,no_bayes
+189,5.0,Edema,0.9169508928571428,simple_mean,no_bayes
+190,5.0,Consolidation,0.8548658088235295,simple_mean,no_bayes
+192,5.0,Atelectasis,0.7997648293963254,simple_mean,no_bayes
+194,5.0,Pleural Effusion,0.9145448369565218,simple_mean,no_bayes
+200,0.0,Cardiomegaly,0.8109402852049911,simple_mean,bayes
+203,0.0,Edema,0.9361607142857142,simple_mean,bayes
+204,0.0,Consolidation,0.9084558823529412,simple_mean,bayes
+206,0.0,Atelectasis,0.8535433070866142,simple_mean,bayes
+208,0.0,Pleural Effusion,0.9334239130434783,simple_mean,bayes
+214,1.0,Cardiomegaly,0.7081049465240641,simple_mean,bayes
+217,1.0,Edema,0.9316264880952382,simple_mean,bayes
+218,1.0,Consolidation,0.870966911764706,simple_mean,bayes
+220,1.0,Atelectasis,0.8377742782152232,simple_mean,bayes
+222,1.0,Pleural Effusion,0.9219984148550725,simple_mean,bayes
+228,1.5,Cardiomegaly,0.7068493761140819,simple_mean,bayes
+231,1.5,Edema,0.9292693452380952,simple_mean,bayes
+232,1.5,Consolidation,0.8694062499999999,simple_mean,bayes
+234,1.5,Atelectasis,0.8382047244094488,simple_mean,bayes
+236,1.5,Pleural Effusion,0.9226494565217391,simple_mean,bayes
+242,2.0,Cardiomegaly,0.7081205436720143,simple_mean,bayes
+245,2.0,Edema,0.9318645833333333,simple_mean,bayes
+246,2.0,Consolidation,0.8693216911764707,simple_mean,bayes
+248,2.0,Atelectasis,0.838142782152231,simple_mean,bayes
+250,2.0,Pleural Effusion,0.9226528532608694,simple_mean,bayes
+256,2.5,Cardiomegaly,0.7069808377896614,simple_mean,bayes
+259,2.5,Edema,0.9290639880952382,simple_mean,bayes
+260,2.5,Consolidation,0.870080882352941,simple_mean,bayes
+262,2.5,Atelectasis,0.8364031496062992,simple_mean,bayes
+264,2.5,Pleural Effusion,0.9216417572463768,simple_mean,bayes
+270,5.0,Cardiomegaly,0.6976348039215686,simple_mean,bayes
+273,5.0,Edema,0.9266116071428572,simple_mean,bayes
+274,5.0,Consolidation,0.866577205882353,simple_mean,bayes
+276,5.0,Atelectasis,0.8281333333333334,simple_mean,bayes
+278,5.0,Pleural Effusion,0.9145448369565218,simple_mean,bayes
+284,0.0,Cardiomegaly,0.8436942959001783,weighted_mean,no_bayes
+287,0.0,Edema,0.9330357142857143,weighted_mean,no_bayes
+288,0.0,Consolidation,0.8987132352941176,weighted_mean,no_bayes
+290,0.0,Atelectasis,0.8113385826771654,weighted_mean,no_bayes
+292,0.0,Pleural Effusion,0.9303668478260869,weighted_mean,no_bayes
+298,1.0,Cardiomegaly,0.7535572638146169,weighted_mean,no_bayes
+301,1.0,Edema,0.9220386904761906,weighted_mean,no_bayes
+302,1.0,Consolidation,0.8681286764705883,weighted_mean,no_bayes
+304,1.0,Atelectasis,0.8095086614173228,weighted_mean,no_bayes
+306,1.0,Pleural Effusion,0.9200192481884057,weighted_mean,no_bayes
+312,1.5,Cardiomegaly,0.752200311942959,weighted_mean,no_bayes
+315,1.5,Edema,0.9211071428571429,weighted_mean,no_bayes
+316,1.5,Consolidation,0.8676507352941177,weighted_mean,no_bayes
+318,1.5,Atelectasis,0.80981312335958,weighted_mean,no_bayes
+320,1.5,Pleural Effusion,0.9199026268115942,weighted_mean,no_bayes
+326,2.0,Cardiomegaly,0.7534001782531196,weighted_mean,no_bayes
+329,2.0,Edema,0.9216443452380954,weighted_mean,no_bayes
+330,2.0,Consolidation,0.8663363970588236,weighted_mean,no_bayes
+332,2.0,Atelectasis,0.812241469816273,weighted_mean,no_bayes
+334,2.0,Pleural Effusion,0.9194010416666667,weighted_mean,no_bayes
+340,2.5,Cardiomegaly,0.7544618983957219,weighted_mean,no_bayes
+343,2.5,Edema,0.9178348214285714,weighted_mean,no_bayes
+344,2.5,Consolidation,0.8667683823529413,weighted_mean,no_bayes
+346,2.5,Atelectasis,0.8129228346456692,weighted_mean,no_bayes
+348,2.5,Pleural Effusion,0.9185326086956521,weighted_mean,no_bayes
+354,5.0,Cardiomegaly,0.7434191176470588,weighted_mean,no_bayes
+357,5.0,Edema,0.9127648809523808,weighted_mean,no_bayes
+358,5.0,Consolidation,0.8621194852941176,weighted_mean,no_bayes
+360,5.0,Atelectasis,0.8043475065616799,weighted_mean,no_bayes
+362,5.0,Pleural Effusion,0.910799365942029,weighted_mean,no_bayes
+368,0.0,Cardiomegaly,0.8114973262032086,weighted_mean,bayes
+371,0.0,Edema,0.9357142857142857,weighted_mean,bayes
+372,0.0,Consolidation,0.9117647058823529,weighted_mean,bayes
+374,0.0,Atelectasis,0.856482939632546,weighted_mean,bayes
+376,0.0,Pleural Effusion,0.9303668478260869,weighted_mean,bayes
+382,1.0,Cardiomegaly,0.7100596033868093,weighted_mean,bayes
+385,1.0,Edema,0.9306458333333334,weighted_mean,bayes
+386,1.0,Consolidation,0.875641544117647,weighted_mean,bayes
+388,1.0,Atelectasis,0.8410246719160105,weighted_mean,bayes
+390,1.0,Pleural Effusion,0.9200192481884057,weighted_mean,bayes
+396,1.5,Cardiomegaly,0.7087901069518716,weighted_mean,bayes
+399,1.5,Edema,0.928858630952381,weighted_mean,bayes
+400,1.5,Consolidation,0.8746654411764705,weighted_mean,bayes
+402,1.5,Atelectasis,0.8408283464566929,weighted_mean,bayes
+404,1.5,Pleural Effusion,0.9199026268115942,weighted_mean,bayes
+410,2.0,Cardiomegaly,0.7104266934046345,weighted_mean,bayes
+413,2.0,Edema,0.9306696428571429,weighted_mean,bayes
+414,2.0,Consolidation,0.8740735294117647,weighted_mean,bayes
+416,2.0,Atelectasis,0.8412850393700788,weighted_mean,bayes
+418,2.0,Pleural Effusion,0.9194010416666667,weighted_mean,bayes
+424,2.5,Cardiomegaly,0.7093738859180035,weighted_mean,bayes
+427,2.5,Edema,0.9276949404761906,weighted_mean,bayes
+428,2.5,Consolidation,0.87496875,weighted_mean,bayes
+430,2.5,Atelectasis,0.8396146981627295,weighted_mean,bayes
+432,2.5,Pleural Effusion,0.9185326086956521,weighted_mean,bayes
+438,5.0,Cardiomegaly,0.6999286987522281,weighted_mean,bayes
+441,5.0,Edema,0.9246860119047619,weighted_mean,bayes
+442,5.0,Consolidation,0.8718639705882352,weighted_mean,bayes
+444,5.0,Atelectasis,0.831303937007874,weighted_mean,bayes
+446,5.0,Pleural Effusion,0.910799365942029,weighted_mean,bayes
+452,0.0,Cardiomegaly,0.5227272727272727,maj_voting,no_bayes
+455,0.0,Edema,0.7882440476190475,maj_voting,no_bayes
+456,0.0,Consolidation,0.5,maj_voting,no_bayes
+458,0.0,Atelectasis,0.5254593175853018,maj_voting,no_bayes
+460,0.0,Pleural Effusion,0.8315217391304349,maj_voting,no_bayes
+466,1.0,Cardiomegaly,0.5113636363636364,maj_voting,no_bayes
+469,1.0,Edema,0.7358779761904762,maj_voting,no_bayes
+470,1.0,Consolidation,0.5,maj_voting,no_bayes
+472,1.0,Atelectasis,0.5204251968503938,maj_voting,no_bayes
+474,1.0,Pleural Effusion,0.7991394927536232,maj_voting,no_bayes
+480,1.5,Cardiomegaly,0.5128787878787879,maj_voting,no_bayes
+483,1.5,Edema,0.7322470238095239,maj_voting,no_bayes
+484,1.5,Consolidation,0.5,maj_voting,no_bayes
+486,1.5,Atelectasis,0.5201522309711286,maj_voting,no_bayes
+488,1.5,Pleural Effusion,0.796682518115942,maj_voting,no_bayes
+494,2.0,Cardiomegaly,0.5128787878787879,maj_voting,no_bayes
+497,2.0,Edema,0.735,maj_voting,no_bayes
+498,2.0,Consolidation,0.5,maj_voting,no_bayes
+500,2.0,Atelectasis,0.5208188976377953,maj_voting,no_bayes
+502,2.0,Pleural Effusion,0.790908061594203,maj_voting,no_bayes
+508,2.5,Cardiomegaly,0.5128787878787879,maj_voting,no_bayes
+511,2.5,Edema,0.7219047619047619,maj_voting,no_bayes
+512,2.5,Consolidation,0.5,maj_voting,no_bayes
+514,2.5,Atelectasis,0.5208188976377953,maj_voting,no_bayes
+516,2.5,Pleural Effusion,0.7833220108695652,maj_voting,no_bayes
+522,5.0,Cardiomegaly,0.5113636363636364,maj_voting,no_bayes
+525,5.0,Edema,0.7091220238095237,maj_voting,no_bayes
+526,5.0,Consolidation,0.5,maj_voting,no_bayes
+528,5.0,Atelectasis,0.5188188976377953,maj_voting,no_bayes
+530,5.0,Pleural Effusion,0.7796082427536232,maj_voting,no_bayes
+536,0.0,Cardiomegaly,0.5,maj_voting,bayes
+539,0.0,Edema,0.5476190476190477,maj_voting,bayes
+540,0.0,Consolidation,0.5,maj_voting,bayes
+542,0.0,Atelectasis,0.5,maj_voting,bayes
+544,0.0,Pleural Effusion,0.8315217391304349,maj_voting,bayes
+550,1.0,Cardiomegaly,0.5,maj_voting,bayes
+553,1.0,Edema,0.5190476190476191,maj_voting,bayes
+554,1.0,Consolidation,0.5,maj_voting,bayes
+556,1.0,Atelectasis,0.5,maj_voting,bayes
+558,1.0,Pleural Effusion,0.7991394927536232,maj_voting,bayes
+564,1.5,Cardiomegaly,0.5,maj_voting,bayes
+567,1.5,Edema,0.5178571428571429,maj_voting,bayes
+568,1.5,Consolidation,0.5,maj_voting,bayes
+570,1.5,Atelectasis,0.5,maj_voting,bayes
+572,1.5,Pleural Effusion,0.796682518115942,maj_voting,bayes
+578,2.0,Cardiomegaly,0.5,maj_voting,bayes
+581,2.0,Edema,0.5172321428571429,maj_voting,bayes
+582,2.0,Consolidation,0.5,maj_voting,bayes
+584,2.0,Atelectasis,0.5,maj_voting,bayes
+586,2.0,Pleural Effusion,0.790908061594203,maj_voting,bayes
+592,2.5,Cardiomegaly,0.5,maj_voting,bayes
+595,2.5,Edema,0.5172321428571429,maj_voting,bayes
+596,2.5,Consolidation,0.5,maj_voting,bayes
+598,2.5,Atelectasis,0.5,maj_voting,bayes
+600,2.5,Pleural Effusion,0.7833220108695652,maj_voting,bayes
+606,5.0,Cardiomegaly,0.5,maj_voting,bayes
+609,5.0,Edema,0.5163541666666668,maj_voting,bayes
+610,5.0,Consolidation,0.5,maj_voting,bayes
+612,5.0,Atelectasis,0.5,maj_voting,bayes
+614,5.0,Pleural Effusion,0.7796082427536232,maj_voting,bayes

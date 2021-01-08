@@ -1,0 +1,421 @@
+,label,magnitude,model,score,bayes
+2,Cardiomegaly,0.0,DenseNet121,0.8379010695187166,no_bayes
+5,Edema,0.0,DenseNet121,0.9142857142857143,no_bayes
+6,Consolidation,0.0,DenseNet121,0.8738970588235295,no_bayes
+8,Atelectasis,0.0,DenseNet121,0.8174278215223097,no_bayes
+10,Pleural Effusion,0.0,DenseNet121,0.9165534420289856,no_bayes
+16,Cardiomegaly,0.0,DenseNet169,0.8364527629233511,no_bayes
+19,Edema,0.0,DenseNet169,0.9322916666666666,no_bayes
+20,Consolidation,0.0,DenseNet169,0.8648897058823529,no_bayes
+22,Atelectasis,0.0,DenseNet169,0.7926509186351706,no_bayes
+24,Pleural Effusion,0.0,DenseNet169,0.9151947463768115,no_bayes
+30,Cardiomegaly,0.0,DenseNet201,0.8407976827094474,no_bayes
+33,Edema,0.0,DenseNet201,0.9206845238095238,no_bayes
+34,Consolidation,0.0,DenseNet201,0.8654411764705883,no_bayes
+36,Atelectasis,0.0,DenseNet201,0.7751181102362203,no_bayes
+38,Pleural Effusion,0.0,DenseNet201,0.9249320652173914,no_bayes
+44,Cardiomegaly,0.0,VGG16,0.8113859180035651,no_bayes
+47,Edema,0.0,VGG16,0.9386904761904762,no_bayes
+48,Consolidation,0.0,VGG16,0.8777573529411764,no_bayes
+50,Atelectasis,0.0,VGG16,0.8100787401574802,no_bayes
+52,Pleural Effusion,0.0,VGG16,0.919044384057971,no_bayes
+58,Cardiomegaly,0.0,VGG19,0.8013591800356505,no_bayes
+61,Edema,0.0,VGG19,0.9318452380952381,no_bayes
+62,Consolidation,0.0,VGG19,0.8806985294117647,no_bayes
+64,Atelectasis,0.0,VGG19,0.8049343832020998,no_bayes
+66,Pleural Effusion,0.0,VGG19,0.9329710144927537,no_bayes
+72,Cardiomegaly,0.0,Xception,0.8137254901960784,no_bayes
+75,Edema,0.0,Xception,0.9056547619047619,no_bayes
+76,Consolidation,0.0,Xception,0.8709558823529412,no_bayes
+78,Atelectasis,0.0,Xception,0.8053543307086615,no_bayes
+80,Pleural Effusion,0.0,Xception,0.9237998188405797,no_bayes
+86,Cardiomegaly,0.0,InceptionResNetV2,0.8130570409982175,no_bayes
+89,Edema,0.0,InceptionResNetV2,0.9279761904761905,no_bayes
+90,Consolidation,0.0,InceptionResNetV2,0.883639705882353,no_bayes
+92,Atelectasis,0.0,InceptionResNetV2,0.7731233595800526,no_bayes
+94,Pleural Effusion,0.0,InceptionResNetV2,0.9189311594202899,no_bayes
+100,Cardiomegaly,1.0,DenseNet121,0.7311686720142602,no_bayes
+103,Edema,1.0,DenseNet121,0.8926175595238095,no_bayes
+104,Consolidation,1.0,DenseNet121,0.8325514705882353,no_bayes
+106,Atelectasis,1.0,DenseNet121,0.7921522309711285,no_bayes
+108,Pleural Effusion,1.0,DenseNet121,0.9008344655797101,no_bayes
+114,Cardiomegaly,1.0,DenseNet169,0.757005347593583,no_bayes
+117,Edema,1.0,DenseNet169,0.8971517857142857,no_bayes
+118,Consolidation,1.0,DenseNet169,0.8435827205882354,no_bayes
+120,Atelectasis,1.0,DenseNet169,0.7926173228346458,no_bayes
+122,Pleural Effusion,1.0,DenseNet169,0.9052117300724638,no_bayes
+128,Cardiomegaly,1.0,DenseNet201,0.7538391265597149,no_bayes
+131,Edema,1.0,DenseNet201,0.8965476190476189,no_bayes
+132,Consolidation,1.0,DenseNet201,0.8294080882352941,no_bayes
+134,Atelectasis,1.0,DenseNet201,0.7818782152230971,no_bayes
+136,Pleural Effusion,1.0,DenseNet201,0.9184624094202898,no_bayes
+142,Cardiomegaly,1.0,VGG16,0.6723139483065954,no_bayes
+145,Edema,1.0,VGG16,0.9228869047619047,no_bayes
+146,Consolidation,1.0,VGG16,0.8419577205882353,no_bayes
+148,Atelectasis,1.0,VGG16,0.7867118110236221,no_bayes
+150,Pleural Effusion,1.0,VGG16,0.9046569293478259,no_bayes
+156,Cardiomegaly,1.0,VGG19,0.6619786096256685,no_bayes
+159,Edema,1.0,VGG19,0.9200119047619048,no_bayes
+160,Consolidation,1.0,VGG19,0.8462242647058823,no_bayes
+162,Atelectasis,1.0,VGG19,0.7867422572178479,no_bayes
+164,Pleural Effusion,1.0,VGG19,0.9107687952898551,no_bayes
+170,Cardiomegaly,1.0,Xception,0.7310221702317291,no_bayes
+173,Edema,1.0,Xception,0.8940014880952383,no_bayes
+174,Consolidation,1.0,Xception,0.8247463235294117,no_bayes
+176,Atelectasis,1.0,Xception,0.8038687664041995,no_bayes
+178,Pleural Effusion,1.0,Xception,0.9060065670289854,no_bayes
+184,Cardiomegaly,1.0,InceptionResNetV2,0.7573529411764707,no_bayes
+187,Edema,1.0,InceptionResNetV2,0.9015803571428571,no_bayes
+188,Consolidation,1.0,InceptionResNetV2,0.8331488970588234,no_bayes
+190,Atelectasis,1.0,InceptionResNetV2,0.7596976377952758,no_bayes
+192,Pleural Effusion,1.0,InceptionResNetV2,0.900601222826087,no_bayes
+198,Cardiomegaly,1.5,DenseNet121,0.7319919786096256,no_bayes
+201,Edema,1.5,DenseNet121,0.8854613095238095,no_bayes
+202,Consolidation,1.5,DenseNet121,0.8377224264705883,no_bayes
+204,Atelectasis,1.5,DenseNet121,0.7956188976377951,no_bayes
+206,Pleural Effusion,1.5,DenseNet121,0.9021501358695652,no_bayes
+212,Cardiomegaly,1.5,DenseNet169,0.7560851158645276,no_bayes
+215,Edema,1.5,DenseNet169,0.8933943452380952,no_bayes
+216,Consolidation,1.5,DenseNet169,0.8345974264705882,no_bayes
+218,Atelectasis,1.5,DenseNet169,0.7924955380577429,no_bayes
+220,Pleural Effusion,1.5,DenseNet169,0.9068851902173912,no_bayes
+226,Cardiomegaly,1.5,DenseNet201,0.7513636363636363,no_bayes
+229,Edema,1.5,DenseNet201,0.8918407738095238,no_bayes
+230,Consolidation,1.5,DenseNet201,0.8243198529411764,no_bayes
+232,Atelectasis,1.5,DenseNet201,0.7831202099737533,no_bayes
+234,Pleural Effusion,1.5,DenseNet201,0.9207336956521738,no_bayes
+240,Cardiomegaly,1.5,VGG16,0.6693872549019608,no_bayes
+243,Edema,1.5,VGG16,0.9213794642857143,no_bayes
+244,Consolidation,1.5,VGG16,0.8423327205882353,no_bayes
+246,Atelectasis,1.5,VGG16,0.7861270341207349,no_bayes
+248,Pleural Effusion,1.5,VGG16,0.9052207880434783,no_bayes
+254,Cardiomegaly,1.5,VGG19,0.660238413547237,no_bayes
+257,Edema,1.5,VGG19,0.9187604166666665,no_bayes
+258,Consolidation,1.5,VGG19,0.8461893382352941,no_bayes
+260,Atelectasis,1.5,VGG19,0.7852062992125983,no_bayes
+262,Pleural Effusion,1.5,VGG19,0.9103521286231884,no_bayes
+268,Cardiomegaly,1.5,Xception,0.7292892156862745,no_bayes
+271,Edema,1.5,Xception,0.8898005952380952,no_bayes
+272,Consolidation,1.5,Xception,0.8273400735294117,no_bayes
+274,Atelectasis,1.5,Xception,0.8053123359580053,no_bayes
+276,Pleural Effusion,1.5,Xception,0.9030400815217391,no_bayes
+282,Cardiomegaly,1.5,InceptionResNetV2,0.7575122549019608,no_bayes
+285,Edema,1.5,InceptionResNetV2,0.9027648809523809,no_bayes
+286,Consolidation,1.5,InceptionResNetV2,0.830579044117647,no_bayes
+288,Atelectasis,1.5,InceptionResNetV2,0.7596372703412074,no_bayes
+290,Pleural Effusion,1.5,InceptionResNetV2,0.9004245923913045,no_bayes
+296,Cardiomegaly,2.0,DenseNet121,0.7334057486631016,no_bayes
+299,Edema,2.0,DenseNet121,0.8898779761904761,no_bayes
+300,Consolidation,2.0,DenseNet121,0.836985294117647,no_bayes
+302,Atelectasis,2.0,DenseNet121,0.798454593175853,no_bayes
+304,Pleural Effusion,2.0,DenseNet121,0.9007699275362318,no_bayes
+310,Cardiomegaly,2.0,DenseNet169,0.7538692067736185,no_bayes
+313,Edema,2.0,DenseNet169,0.8956636904761904,no_bayes
+314,Consolidation,2.0,DenseNet169,0.8323198529411765,no_bayes
+316,Atelectasis,2.0,DenseNet169,0.7960755905511813,no_bayes
+318,Pleural Effusion,2.0,DenseNet169,0.9101279438405796,no_bayes
+324,Cardiomegaly,2.0,DenseNet201,0.755819964349376,no_bayes
+327,Edema,2.0,DenseNet201,0.8945877976190476,no_bayes
+328,Consolidation,2.0,DenseNet201,0.8208033088235293,no_bayes
+330,Atelectasis,2.0,DenseNet201,0.786290813648294,no_bayes
+332,Pleural Effusion,2.0,DenseNet201,0.919465579710145,no_bayes
+338,Cardiomegaly,2.0,VGG16,0.6680648395721924,no_bayes
+341,Edema,2.0,VGG16,0.9210848214285714,no_bayes
+342,Consolidation,2.0,VGG16,0.8402536764705884,no_bayes
+344,Atelectasis,2.0,VGG16,0.7872351706036744,no_bayes
+346,Pleural Effusion,2.0,VGG16,0.904441802536232,no_bayes
+352,Cardiomegaly,2.0,VGG19,0.6610305258467024,no_bayes
+355,Edema,2.0,VGG19,0.9177217261904762,no_bayes
+356,Consolidation,2.0,VGG19,0.843626838235294,no_bayes
+358,Atelectasis,2.0,VGG19,0.7851779527559055,no_bayes
+360,Pleural Effusion,2.0,VGG19,0.909578804347826,no_bayes
+366,Cardiomegaly,2.0,Xception,0.7280659536541889,no_bayes
+369,Edema,2.0,Xception,0.886450892857143,no_bayes
+370,Consolidation,2.0,Xception,0.8307334558823529,no_bayes
+372,Atelectasis,2.0,Xception,0.8035590551181102,no_bayes
+374,Pleural Effusion,2.0,Xception,0.9024399909420289,no_bayes
+380,Cardiomegaly,2.0,InceptionResNetV2,0.7582698306595366,no_bayes
+383,Edema,2.0,InceptionResNetV2,0.9022693452380952,no_bayes
+384,Consolidation,2.0,InceptionResNetV2,0.8243694852941177,no_bayes
+386,Atelectasis,2.0,InceptionResNetV2,0.7625333333333334,no_bayes
+388,Pleural Effusion,2.0,InceptionResNetV2,0.8991043931159419,no_bayes
+394,Cardiomegaly,2.5,DenseNet121,0.7372482174688058,no_bayes
+397,Edema,2.5,DenseNet121,0.8835208333333334,no_bayes
+398,Consolidation,2.5,DenseNet121,0.8360974264705882,no_bayes
+400,Atelectasis,2.5,DenseNet121,0.7941627296587926,no_bayes
+402,Pleural Effusion,2.5,DenseNet121,0.9002117300724639,no_bayes
+408,Cardiomegaly,2.5,DenseNet169,0.7545020053475937,no_bayes
+411,Edema,2.5,DenseNet169,0.8917931547619049,no_bayes
+412,Consolidation,2.5,DenseNet169,0.8332757352941176,no_bayes
+414,Atelectasis,2.5,DenseNet169,0.7950477690288713,no_bayes
+416,Pleural Effusion,2.5,DenseNet169,0.9084341032608697,no_bayes
+422,Cardiomegaly,2.5,DenseNet201,0.7525144830659536,no_bayes
+425,Edema,2.5,DenseNet201,0.8901488095238095,no_bayes
+426,Consolidation,2.5,DenseNet201,0.8191654411764705,no_bayes
+428,Atelectasis,2.5,DenseNet201,0.7848010498687663,no_bayes
+430,Pleural Effusion,2.5,DenseNet201,0.9174184782608696,no_bayes
+436,Cardiomegaly,2.5,VGG16,0.6684012923351159,no_bayes
+439,Edema,2.5,VGG16,0.917983630952381,no_bayes
+440,Consolidation,2.5,VGG16,0.8393805147058824,no_bayes
+442,Atelectasis,2.5,VGG16,0.7842992125984252,no_bayes
+444,Pleural Effusion,2.5,VGG16,0.9036922554347827,no_bayes
+450,Cardiomegaly,2.5,VGG19,0.6615196078431372,no_bayes
+453,Edema,2.5,VGG19,0.9154300595238095,no_bayes
+454,Consolidation,2.5,VGG19,0.8448051470588236,no_bayes
+456,Atelectasis,2.5,VGG19,0.7833154855643045,no_bayes
+458,Pleural Effusion,2.5,VGG19,0.9098765851449274,no_bayes
+464,Cardiomegaly,2.5,Xception,0.7296089572192515,no_bayes
+467,Edema,2.5,Xception,0.8825833333333333,no_bayes
+468,Consolidation,2.5,Xception,0.8271433823529413,no_bayes
+470,Atelectasis,2.5,Xception,0.7981889763779527,no_bayes
+472,Pleural Effusion,2.5,Xception,0.8972701539855071,no_bayes
+478,Cardiomegaly,2.5,InceptionResNetV2,0.7555782085561497,no_bayes
+481,Edema,2.5,InceptionResNetV2,0.8954568452380952,no_bayes
+482,Consolidation,2.5,InceptionResNetV2,0.8267518382352941,no_bayes
+484,Atelectasis,2.5,InceptionResNetV2,0.7652482939632546,no_bayes
+486,Pleural Effusion,2.5,InceptionResNetV2,0.8975792572463768,no_bayes
+492,Cardiomegaly,5.0,DenseNet121,0.7305614973262032,no_bayes
+495,Edema,5.0,DenseNet121,0.8771800595238095,no_bayes
+496,Consolidation,5.0,DenseNet121,0.8126764705882352,no_bayes
+498,Atelectasis,5.0,DenseNet121,0.7781931758530184,no_bayes
+500,Pleural Effusion,5.0,DenseNet121,0.8906261322463767,no_bayes
+506,Cardiomegaly,5.0,DenseNet169,0.7413725490196079,no_bayes
+509,Edema,5.0,DenseNet169,0.8831041666666666,no_bayes
+510,Consolidation,5.0,DenseNet169,0.8274816176470587,no_bayes
+512,Atelectasis,5.0,DenseNet169,0.7808010498687664,no_bayes
+514,Pleural Effusion,5.0,DenseNet169,0.9017232789855071,no_bayes
+520,Cardiomegaly,5.0,DenseNet201,0.7341878342245989,no_bayes
+523,Edema,5.0,DenseNet201,0.8779389880952381,no_bayes
+524,Consolidation,5.0,DenseNet201,0.8087738970588235,no_bayes
+526,Atelectasis,5.0,DenseNet201,0.7814456692913385,no_bayes
+528,Pleural Effusion,5.0,DenseNet201,0.9086582880434783,no_bayes
+534,Cardiomegaly,5.0,VGG16,0.6546395944741532,no_bayes
+537,Edema,5.0,VGG16,0.9076517857142857,no_bayes
+538,Consolidation,5.0,VGG16,0.8283253676470588,no_bayes
+540,Atelectasis,5.0,VGG16,0.7713721784776902,no_bayes
+542,Pleural Effusion,5.0,VGG16,0.8883242753623187,no_bayes
+548,Cardiomegaly,5.0,VGG19,0.6503954991087344,no_bayes
+551,Edema,5.0,VGG19,0.9014761904761905,no_bayes
+552,Consolidation,5.0,VGG19,0.8365533088235293,no_bayes
+554,Atelectasis,5.0,VGG19,0.7668010498687663,no_bayes
+556,Pleural Effusion,5.0,VGG19,0.8973629981884058,no_bayes
+562,Cardiomegaly,5.0,Xception,0.7195744206773619,no_bayes
+565,Edema,5.0,Xception,0.8762514880952379,no_bayes
+566,Consolidation,5.0,Xception,0.8292352941176471,no_bayes
+568,Atelectasis,5.0,Xception,0.7853301837270341,no_bayes
+570,Pleural Effusion,5.0,Xception,0.8869604846014493,no_bayes
+576,Cardiomegaly,5.0,InceptionResNetV2,0.7437589126559715,no_bayes
+579,Edema,5.0,InceptionResNetV2,0.888828869047619,no_bayes
+580,Consolidation,5.0,InceptionResNetV2,0.820716911764706,no_bayes
+582,Atelectasis,5.0,InceptionResNetV2,0.7628188976377953,no_bayes
+584,Pleural Effusion,5.0,InceptionResNetV2,0.8909148550724638,no_bayes
+2,Cardiomegaly,0.0,DenseNet121,0.7999108734402852,bayes
+5,Edema,0.0,DenseNet121,0.9202380952380952,bayes
+6,Consolidation,0.0,DenseNet121,0.8909926470588236,bayes
+8,Atelectasis,0.0,DenseNet121,0.853753280839895,bayes
+10,Pleural Effusion,0.0,DenseNet121,0.9165534420289856,bayes
+16,Cardiomegaly,0.0,DenseNet169,0.7950089126559714,bayes
+19,Edema,0.0,DenseNet169,0.9363095238095238,bayes
+20,Consolidation,0.0,DenseNet169,0.8823529411764706,bayes
+22,Atelectasis,0.0,DenseNet169,0.8501837270341207,bayes
+24,Pleural Effusion,0.0,DenseNet169,0.9151947463768115,bayes
+30,Cardiomegaly,0.0,DenseNet201,0.7913324420677362,bayes
+33,Edema,0.0,DenseNet201,0.9171130952380953,bayes
+34,Consolidation,0.0,DenseNet201,0.8814338235294118,bayes
+36,Atelectasis,0.0,DenseNet201,0.8342257217847769,bayes
+38,Pleural Effusion,0.0,DenseNet201,0.9249320652173914,bayes
+44,Cardiomegaly,0.0,VGG16,0.7715017825311943,bayes
+47,Edema,0.0,VGG16,0.9322916666666666,bayes
+48,Consolidation,0.0,VGG16,0.897610294117647,bayes
+50,Atelectasis,0.0,VGG16,0.8430446194225723,bayes
+52,Pleural Effusion,0.0,VGG16,0.919044384057971,bayes
+58,Cardiomegaly,0.0,VGG19,0.7691622103386809,bayes
+61,Edema,0.0,VGG19,0.9266369047619047,bayes
+62,Consolidation,0.0,VGG19,0.9003676470588236,bayes
+64,Atelectasis,0.0,VGG19,0.8428346456692914,bayes
+66,Pleural Effusion,0.0,VGG19,0.9329710144927537,bayes
+72,Cardiomegaly,0.0,Xception,0.7697192513368983,bayes
+75,Edema,0.0,Xception,0.908779761904762,bayes
+76,Consolidation,0.0,Xception,0.8799632352941176,bayes
+78,Atelectasis,0.0,Xception,0.8405249343832021,bayes
+80,Pleural Effusion,0.0,Xception,0.9237998188405797,bayes
+86,Cardiomegaly,0.0,InceptionResNetV2,0.7837566844919787,bayes
+89,Edema,0.0,InceptionResNetV2,0.925297619047619,bayes
+90,Consolidation,0.0,InceptionResNetV2,0.896875,bayes
+92,Atelectasis,0.0,InceptionResNetV2,0.8183727034120735,bayes
+94,Pleural Effusion,0.0,InceptionResNetV2,0.9189311594202899,bayes
+100,Cardiomegaly,1.0,DenseNet121,0.6962878787878788,bayes
+103,Edema,1.0,DenseNet121,0.9063110119047619,bayes
+104,Consolidation,1.0,DenseNet121,0.8372095588235294,bayes
+106,Atelectasis,1.0,DenseNet121,0.8278110236220472,bayes
+108,Pleural Effusion,1.0,DenseNet121,0.9008344655797101,bayes
+114,Cardiomegaly,1.0,DenseNet169,0.7131094028520499,bayes
+117,Edema,1.0,DenseNet169,0.9145565476190477,bayes
+118,Consolidation,1.0,DenseNet169,0.8548437499999999,bayes
+120,Atelectasis,1.0,DenseNet169,0.8256388451443569,bayes
+122,Pleural Effusion,1.0,DenseNet169,0.9052117300724638,bayes
+128,Cardiomegaly,1.0,DenseNet201,0.6972649286987522,bayes
+131,Edema,1.0,DenseNet201,0.9060669642857144,bayes
+132,Consolidation,1.0,DenseNet201,0.841170955882353,bayes
+134,Atelectasis,1.0,DenseNet201,0.819228346456693,bayes
+136,Pleural Effusion,1.0,DenseNet201,0.9184624094202898,bayes
+142,Cardiomegaly,1.0,VGG16,0.6446624331550801,bayes
+145,Edema,1.0,VGG16,0.9271235119047618,bayes
+146,Consolidation,1.0,VGG16,0.862095588235294,bayes
+148,Atelectasis,1.0,VGG16,0.8187265091863517,bayes
+150,Pleural Effusion,1.0,VGG16,0.9046569293478259,bayes
+156,Cardiomegaly,1.0,VGG19,0.6460004456327986,bayes
+159,Edema,1.0,VGG19,0.9247633928571428,bayes
+160,Consolidation,1.0,VGG19,0.869376838235294,bayes
+162,Atelectasis,1.0,VGG19,0.8235527559055118,bayes
+164,Pleural Effusion,1.0,VGG19,0.9107687952898551,bayes
+170,Cardiomegaly,1.0,Xception,0.6987199197860963,bayes
+173,Edema,1.0,Xception,0.9090297619047619,bayes
+174,Consolidation,1.0,Xception,0.8307095588235294,bayes
+176,Atelectasis,1.0,Xception,0.8181007874015749,bayes
+178,Pleural Effusion,1.0,Xception,0.9060065670289854,bayes
+184,Cardiomegaly,1.0,InceptionResNetV2,0.7299331550802138,bayes
+187,Edema,1.0,InceptionResNetV2,0.9103214285714286,bayes
+188,Consolidation,1.0,InceptionResNetV2,0.8441488970588236,bayes
+190,Atelectasis,1.0,InceptionResNetV2,0.8003086614173227,bayes
+192,Pleural Effusion,1.0,InceptionResNetV2,0.900601222826087,bayes
+198,Cardiomegaly,1.5,DenseNet121,0.6970933600713012,bayes
+201,Edema,1.5,DenseNet121,0.90125,bayes
+202,Consolidation,1.5,DenseNet121,0.8420551470588234,bayes
+204,Atelectasis,1.5,DenseNet121,0.8302372703412073,bayes
+206,Pleural Effusion,1.5,DenseNet121,0.9021501358695652,bayes
+212,Cardiomegaly,1.5,DenseNet169,0.7113692067736185,bayes
+215,Edema,1.5,DenseNet169,0.9115848214285713,bayes
+216,Consolidation,1.5,DenseNet169,0.8490496323529412,bayes
+218,Atelectasis,1.5,DenseNet169,0.8259307086614173,bayes
+220,Pleural Effusion,1.5,DenseNet169,0.9068851902173912,bayes
+226,Cardiomegaly,1.5,DenseNet201,0.697979055258467,bayes
+229,Edema,1.5,DenseNet201,0.902546130952381,bayes
+230,Consolidation,1.5,DenseNet201,0.8378952205882352,bayes
+232,Atelectasis,1.5,DenseNet201,0.8203968503937008,bayes
+234,Pleural Effusion,1.5,DenseNet201,0.9207336956521738,bayes
+240,Cardiomegaly,1.5,VGG16,0.6430247326203209,bayes
+243,Edema,1.5,VGG16,0.925764880952381,bayes
+244,Consolidation,1.5,VGG16,0.8624117647058824,bayes
+246,Atelectasis,1.5,VGG16,0.8181333333333334,bayes
+248,Pleural Effusion,1.5,VGG16,0.9052207880434783,bayes
+254,Cardiomegaly,1.5,VGG19,0.6465719696969696,bayes
+257,Edema,1.5,VGG19,0.9240357142857144,bayes
+258,Consolidation,1.5,VGG19,0.8690661764705881,bayes
+260,Atelectasis,1.5,VGG19,0.8233322834645669,bayes
+262,Pleural Effusion,1.5,VGG19,0.9103521286231884,bayes
+268,Cardiomegaly,1.5,Xception,0.696934046345811,bayes
+271,Edema,1.5,Xception,0.90634375,bayes
+272,Consolidation,1.5,Xception,0.8312849264705882,bayes
+274,Atelectasis,1.5,Xception,0.8180230971128609,bayes
+276,Pleural Effusion,1.5,Xception,0.9030400815217391,bayes
+282,Cardiomegaly,1.5,InceptionResNetV2,0.7297805258467023,bayes
+285,Edema,1.5,InceptionResNetV2,0.9096785714285714,bayes
+286,Consolidation,1.5,InceptionResNetV2,0.8414889705882354,bayes
+288,Atelectasis,1.5,InceptionResNetV2,0.7988451443569554,bayes
+290,Pleural Effusion,1.5,InceptionResNetV2,0.9004245923913045,bayes
+296,Cardiomegaly,2.0,DenseNet121,0.7011519607843137,bayes
+299,Edema,2.0,DenseNet121,0.9070520833333333,bayes
+300,Consolidation,2.0,DenseNet121,0.8443805147058824,bayes
+302,Atelectasis,2.0,DenseNet121,0.8327999999999999,bayes
+304,Pleural Effusion,2.0,DenseNet121,0.9007699275362318,bayes
+310,Cardiomegaly,2.0,DenseNet169,0.7095432263814616,bayes
+313,Edema,2.0,DenseNet169,0.914577380952381,bayes
+314,Consolidation,2.0,DenseNet169,0.8461654411764705,bayes
+316,Atelectasis,2.0,DenseNet169,0.8256965879265091,bayes
+318,Pleural Effusion,2.0,DenseNet169,0.9101279438405796,bayes
+324,Cardiomegaly,2.0,DenseNet201,0.7027506684491979,bayes
+327,Edema,2.0,DenseNet201,0.9057782738095238,bayes
+328,Consolidation,2.0,DenseNet201,0.8324926470588236,bayes
+330,Atelectasis,2.0,DenseNet201,0.8207328083989501,bayes
+332,Pleural Effusion,2.0,DenseNet201,0.919465579710145,bayes
+338,Cardiomegaly,2.0,VGG16,0.6416354723707665,bayes
+341,Edema,2.0,VGG16,0.9255982142857144,bayes
+342,Consolidation,2.0,VGG16,0.8610588235294117,bayes
+344,Atelectasis,2.0,VGG16,0.8180430446194226,bayes
+346,Pleural Effusion,2.0,VGG16,0.904441802536232,bayes
+352,Cardiomegaly,2.0,VGG19,0.6479166666666667,bayes
+355,Edema,2.0,VGG19,0.9233169642857144,bayes
+356,Consolidation,2.0,VGG19,0.8662757352941176,bayes
+358,Atelectasis,2.0,VGG19,0.8220167979002624,bayes
+360,Pleural Effusion,2.0,VGG19,0.909578804347826,bayes
+366,Cardiomegaly,2.0,Xception,0.6945398841354724,bayes
+369,Edema,2.0,Xception,0.9036220238095238,bayes
+370,Consolidation,2.0,Xception,0.8352224264705882,bayes
+372,Atelectasis,2.0,Xception,0.8161595800524933,bayes
+374,Pleural Effusion,2.0,Xception,0.9024399909420289,bayes
+380,Cardiomegaly,2.0,InceptionResNetV2,0.7334046345811052,bayes
+383,Edema,2.0,InceptionResNetV2,0.9109166666666667,bayes
+384,Consolidation,2.0,InceptionResNetV2,0.8343750000000001,bayes
+386,Atelectasis,2.0,InceptionResNetV2,0.7978173228346458,bayes
+388,Pleural Effusion,2.0,InceptionResNetV2,0.8991043931159419,bayes
+394,Cardiomegaly,2.5,DenseNet121,0.7057486631016042,bayes
+397,Edema,2.5,DenseNet121,0.9015267857142857,bayes
+398,Consolidation,2.5,DenseNet121,0.842564338235294,bayes
+400,Atelectasis,2.5,DenseNet121,0.8256729658792652,bayes
+402,Pleural Effusion,2.5,DenseNet121,0.9002117300724639,bayes
+408,Cardiomegaly,2.5,DenseNet169,0.7117201426024956,bayes
+411,Edema,2.5,DenseNet169,0.9111800595238095,bayes
+412,Consolidation,2.5,DenseNet169,0.8482775735294118,bayes
+414,Atelectasis,2.5,DenseNet169,0.8231181102362204,bayes
+416,Pleural Effusion,2.5,DenseNet169,0.9084341032608697,bayes
+422,Cardiomegaly,2.5,DenseNet201,0.6998997326203209,bayes
+425,Edema,2.5,DenseNet201,0.9021934523809524,bayes
+426,Consolidation,2.5,DenseNet201,0.8336158088235294,bayes
+428,Atelectasis,2.5,DenseNet201,0.8190677165354331,bayes
+430,Pleural Effusion,2.5,DenseNet201,0.9174184782608696,bayes
+436,Cardiomegaly,2.5,VGG16,0.6425635026737968,bayes
+439,Edema,2.5,VGG16,0.9228616071428571,bayes
+440,Consolidation,2.5,VGG16,0.8608970588235295,bayes
+442,Atelectasis,2.5,VGG16,0.815742782152231,bayes
+444,Pleural Effusion,2.5,VGG16,0.9036922554347827,bayes
+450,Cardiomegaly,2.5,VGG19,0.648954991087344,bayes
+453,Edema,2.5,VGG19,0.9220074404761904,bayes
+454,Consolidation,2.5,VGG19,0.8667591911764706,bayes
+456,Atelectasis,2.5,VGG19,0.820465091863517,bayes
+458,Pleural Effusion,2.5,VGG19,0.9098765851449274,bayes
+464,Cardiomegaly,2.5,Xception,0.6968482620320855,bayes
+467,Edema,2.5,Xception,0.9013571428571427,bayes
+468,Consolidation,2.5,Xception,0.832373161764706,bayes
+470,Atelectasis,2.5,Xception,0.809888713910761,bayes
+472,Pleural Effusion,2.5,Xception,0.8972701539855071,bayes
+478,Cardiomegaly,2.5,InceptionResNetV2,0.728158422459893,bayes
+481,Edema,2.5,InceptionResNetV2,0.9035431547619047,bayes
+482,Consolidation,2.5,InceptionResNetV2,0.8393363970588236,bayes
+484,Atelectasis,2.5,InceptionResNetV2,0.800086089238845,bayes
+486,Pleural Effusion,2.5,InceptionResNetV2,0.8975792572463768,bayes
+492,Cardiomegaly,5.0,DenseNet121,0.6949543226381462,bayes
+495,Edema,5.0,DenseNet121,0.8987708333333334,bayes
+496,Consolidation,5.0,DenseNet121,0.8299577205882354,bayes
+498,Atelectasis,5.0,DenseNet121,0.8144377952755906,bayes
+500,Pleural Effusion,5.0,DenseNet121,0.8906261322463767,bayes
+506,Cardiomegaly,5.0,DenseNet169,0.7041154188948306,bayes
+509,Edema,5.0,DenseNet169,0.9025982142857143,bayes
+510,Consolidation,5.0,DenseNet169,0.8442849264705882,bayes
+512,Atelectasis,5.0,DenseNet169,0.8126120734908135,bayes
+514,Pleural Effusion,5.0,DenseNet169,0.9017232789855071,bayes
+520,Cardiomegaly,5.0,DenseNet201,0.6843716577540107,bayes
+523,Edema,5.0,DenseNet201,0.8917946428571428,bayes
+524,Consolidation,5.0,DenseNet201,0.8304044117647058,bayes
+526,Atelectasis,5.0,DenseNet201,0.8132524934383202,bayes
+528,Pleural Effusion,5.0,DenseNet201,0.9086582880434783,bayes
+534,Cardiomegaly,5.0,VGG16,0.6313803475935829,bayes
+537,Edema,5.0,VGG16,0.9160625,bayes
+538,Consolidation,5.0,VGG16,0.8517058823529412,bayes
+540,Atelectasis,5.0,VGG16,0.8023979002624673,bayes
+542,Pleural Effusion,5.0,VGG16,0.8883242753623187,bayes
+548,Cardiomegaly,5.0,VGG19,0.6382854278074866,bayes
+551,Edema,5.0,VGG19,0.9136547619047619,bayes
+552,Consolidation,5.0,VGG19,0.8590992647058824,bayes
+554,Atelectasis,5.0,VGG19,0.8055884514435695,bayes
+556,Pleural Effusion,5.0,VGG19,0.8973629981884058,bayes
+562,Cardiomegaly,5.0,Xception,0.690222816399287,bayes
+565,Edema,5.0,Xception,0.8975327380952381,bayes
+566,Consolidation,5.0,Xception,0.8306029411764704,bayes
+568,Atelectasis,5.0,Xception,0.7953385826771655,bayes
+570,Pleural Effusion,5.0,Xception,0.8869604846014493,bayes
+576,Cardiomegaly,5.0,InceptionResNetV2,0.7147660427807486,bayes
+579,Edema,5.0,InceptionResNetV2,0.8964657738095239,bayes
+580,Consolidation,5.0,InceptionResNetV2,0.8349540441176472,bayes
+582,Atelectasis,5.0,InceptionResNetV2,0.7980608923884513,bayes
+584,Pleural Effusion,5.0,InceptionResNetV2,0.8909148550724638,bayes
