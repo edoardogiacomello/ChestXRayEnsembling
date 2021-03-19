@@ -3,11 +3,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import functools
 import cv2
+import time
 
 
 # Standard CNN classifier with customizable number of convolutional and fully connected layers;
 def make_std_cnn(num_classes=1, n_filters=8, conv_depth=4, fc_layers=1):
     model = tf.keras.Sequential()
+
     for i in range(conv_depth):
         model.add(tf.keras.layers.Conv2D(
             filters=n_filters,
@@ -46,21 +48,21 @@ def cnn_to_encoder(model, latent_space_dim=100):
 def make_std_decoder(conv_steps=3, final_images_size=(128, 128)):
     # sequential model definition, number of filters fixed
     decoder = tf.keras.Sequential()
-    initial_filters = 16
+    initial_filters = 32
 
     # rearranging the latent layer in images of a size such that the size in the final layer is
     # the one wanted, considering the numbers of convolutional layers with stride 2
-    init_dim = np.floor(final_images_size[0] / (tf.math.pow(2, conv_steps)))
-    decoder.add(
-        tf.keras.layers.Dense(units=init_dim * init_dim * initial_filters * 7, activation='relu'))
-    decoder.add(tf.keras.layers.Reshape(target_shape=(init_dim, init_dim, initial_filters * 7)))
+    init_dim = int(np.floor(final_images_size[0] / (tf.math.pow(2, conv_steps))))
+    decoder.add(tf.keras.layers.Dense(units=init_dim * init_dim * initial_filters, activation='relu'))
+    decoder.add(tf.keras.layers.Reshape(target_shape=(init_dim, init_dim, initial_filters)))
+    print('decoder initial dim : ', init_dim)
 
     for i in range(conv_steps):
-        initial_filters = np.floor(initial_filters / 2)
         decoder.add(tf.keras.layers.Conv2DTranspose(padding='same', activation='relu', strides=2, kernel_size=3,
                                                     filters=initial_filters))
+        initial_filters = np.floor(initial_filters / 2)
 
-    decoder.add(tf.keras.layers.Conv2D(kernel_size=3, activation='relu', strides=1, filters=3))
+    decoder.add(tf.keras.layers.Conv2D(kernel_size=3, activation='relu', strides=1, filters=3, padding='same'))
 
     return decoder
 
@@ -154,85 +156,3 @@ class GradCAM:
         # return a 2-tuple of the color mapped heatmap and the output,
         # overlaid image
         return heatmap_, output
-
-
-# Class to implement VAE
-class VAE(tf.keras.Model):
-    def __init__(self, latent_dim=100):
-        super(VAE, self).__init__()
-        self.latent_dim = latent_dim
-
-        # Define the number of outputs for the encoder. Recall that we have
-        # `latent_dim` latent variables, as well as a supervised output for the
-        # classification.
-        num_encoder_dims = 2 * self.latent_dim + 1
-
-        # tmp_model = make_std_cnn()
-        self.encoder = cnn_to_encoder(model=make_std_cnn(), latent_space_dim=num_encoder_dims)
-        self.decoder = make_std_decoder()
-
-    def Summary(self):
-        print('Encoder : ')
-        tmp = self.encoder(tf.expand_dims(tf.zeros([128, 128, 3]), axis=0))
-        self.encoder.summary()
-        print('Decoder : ')
-        tmp = self.decoder(tf.expand_dims(tf.zeros([100]), axis=0))
-        self.decoder.summary()
-
-
-    # function to feed images into encoder, encode the latent space, and output
-    #   classification probability
-    def encode(self, x):
-        # encoder output
-        encoder_output = self.encoder(x)
-
-        # classification prediction
-        y_logit = tf.expand_dims(encoder_output[:, 0], -1)
-        # latent variable distribution parameters
-        z_mean = encoder_output[:, 1:self.latent_dim + 1]
-        z_logsigma = encoder_output[:, self.latent_dim + 1:]
-
-        return y_logit, z_mean, z_logsigma
-
-    # VAE Reparameterization ###
-
-    """Reparameterization trick by sampling from an isotropic unit Gaussian.
-  # Arguments
-      z_mean, z_logsigma (tensor): mean and log of standard deviation of latent distribution (Q(z|X))
-  # Returns
-      z (tensor): sampled latent vector
-  """
-    def sampling(self, z_mean, z_logsigma):
-        # By default, random.normal is "standard" (ie. mean=0 and std=1.0)
-        batch, latent_dim = z_mean.shape
-        epsilon = tf.random.normal(shape=(batch, latent_dim))
-
-        z = z_mean + tf.math.exp(0.5 * z_logsigma) * epsilon
-        return z
-
-    # VAE reparameterization: given a mean and logsigma, sample latent variables
-    def reparameterize(self, z_mean, z_logsigma):
-
-        z = self.sampling(z_mean, z_logsigma)
-        return z
-
-    # Decode the latent space and output reconstruction
-    def decode(self, z):
-
-        reconstruction = self.decoder(z)
-        return reconstruction
-
-    # The call function will be used to pass inputs x through the core VAE
-    def call(self, x):
-        # Encode input to a prediction and latent space
-        y_logit, z_mean, z_logsigma = self.encode(x)
-
-        z = self.reparameterize(z_mean=z_mean, z_logsigma=z_logsigma)
-
-        recon = self.decode(z=z)
-        return y_logit, z_mean, z_logsigma, recon
-
-    # Predict face or not face logit for given input x
-    def predict(self, x):
-        y_logit, z_mean, z_logsigma = self.encode(x)
-        return y_logit
