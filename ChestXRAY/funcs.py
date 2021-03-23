@@ -25,7 +25,13 @@ def make_std_cnn(num_classes=1, n_filters=8, conv_depth=4, fc_layers=1):
 
     units = 256
     for i in range(fc_layers):
-        model.add(tf.keras.layers.Dense(units=units))
+        model.add(tf.keras.layers.Dense(
+            units=units,
+            activation=tf.nn.relu,
+            kernel_initializer=tf.initializers.glorot_normal,
+            kernel_regularizer=tf.nn.dropout
+            )
+        )
 
     if num_classes > 1:
         model.add(tf.keras.layers.Dense(units=num_classes, activation=tf.nn.softmax))
